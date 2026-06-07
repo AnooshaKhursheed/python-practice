@@ -16,7 +16,7 @@ string="anoosha"
 message="hello"
 new= "hello"+ "  " +string
 print(new)
-
+#age calculator
 birth_year= "2005"
 current_year=  2026
 calculate_age=(current_year - int(birth_year)) + 1
