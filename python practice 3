@@ -1,0 +1,30 @@
+name= "anushae"
+print("my name is  "+ name)
+
+#when we want to sum up two strings we will use add sign
+
+name= "ansha"
+other_friend= "elena"
+another_friend= "roshan"
+print("my name is " + name)
+print(other_friend + " she is my international friend")
+print("i have another cutie friend and her name is " + another_friend)
+
+#for multiple strings printing we will use triple quotation
+
+string= "He said, i want some snacks " \
+"but ali said i am not hungry"
+print(string)
+
+#indexing of characters
+
+print(name[0])
+print(name[1])
+print(name[2])
+print(name[3])
+print(name[4])
+
+#when there are a lots of characters we will use for loop
+
+for character in string:
+ print(character)
