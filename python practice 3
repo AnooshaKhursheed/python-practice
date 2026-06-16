@@ -1,30 +1,10 @@
-name= "anushae"
-print("my name is  "+ name)
+a=input("what is your name?")
+print("my name is ",a)
 
-#when we want to sum up two strings we will use add sign
+b=input("are you ready to play game? if yes please type yes")
+print("i am excited so",b)
 
-name= "ansha"
-other_friend= "elena"
-another_friend= "roshan"
-print("my name is " + name)
-print(other_friend + " she is my international friend")
-print("i have another cutie friend and her name is " + another_friend)
-
-#for multiple strings printing we will use triple quotation
-
-string= "He said, i want some snacks " \
-"but ali said i am not hungry"
-print(string)
-
-#indexing of characters
-
-print(name[0])
-print(name[1])
-print(name[2])
-print(name[3])
-print(name[4])
-
-#when there are a lots of characters we will use for loop
-
-for character in string:
- print(character)
+partner_one= "shahveer"
+partner_two= "aliyar"
+c=input("you have to choose one partner so choose wisely!!")
+print("i want to choose ",partner_one)
