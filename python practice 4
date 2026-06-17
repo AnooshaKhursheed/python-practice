@@ -1,3 +1,6 @@
+import time
+
+
 concertTicket=200000
 myBudget= 100000
 if (concertTicket < myBudget):
@@ -67,3 +70,24 @@ elif score >= 60:
             print("Grade: D")
 else:
     print("Grade: F")
+
+
+
+#practice program
+import datetime
+
+current_time= datetime.datetime.now()
+hour= current_time.hour
+
+if hour<12:
+   greeting="good morning"
+elif hour<17:
+   greeting="good afternoon"
+elif hour<21:
+   greeting="good evening"
+else:
+   greeting="good night"
+
+print(f"current system hour:{hour}:00")
+print(greeting)
+

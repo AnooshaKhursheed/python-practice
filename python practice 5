@@ -1,0 +1,56 @@
+#practice program
+import datetime
+
+current_time= datetime.datetime.now()
+hour= current_time.hour
+
+if hour<12:
+   greeting="good morning"
+elif hour<17:
+   greeting="good afternoon"
+elif hour<21:
+   greeting="good evening"
+else:
+   greeting="good night"
+
+print(f"current system hour:{hour}:00")
+print(greeting)
+
+#size of cup
+import time
+
+size=input("enter your cup size(small,medium,large):")
+water_needed=400
+
+if size=="small":
+   water_needed==200 # type: ignore
+elif size=="medium":
+   water_needed==350  # type: ignore
+elif size=="large":
+   water_needed==500  # type: ignore
+else:
+   water_needed==0  # type: ignore
+print("no cup size defined")
+
+#new program
+greetings="assalmualikum"
+print(greetings)
+
+foodOrder=input("what you want to order dear costumer?")
+distance=float(input("enter where are you from?in kilometers"))
+vip_pass=("do you have a our premium pass?(yes or no)").lower
+
+ #for deivery charges
+
+if distance <= 2.0:
+   delivery_charges=50.0
+elif distance <=5.0:
+   delivery_charges=120.0
+else:
+   delivery_charges=250.0
+
+#for premium pass
+if vip_pass== "yes":
+   print("hury!! you can get discount")
+else:
+   print("oops! you don't get any discount")
