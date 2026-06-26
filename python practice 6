@@ -1,0 +1,32 @@
+name= "anoosha"
+for i in name:
+ print(i)
+
+name= "jimin"
+for name in name:
+ print(name)
+
+fruits=("apple","orange","kiwi","leechi")
+for i in fruits:
+ print(i)
+ for fruits in fruits:
+  print(fruits)
+
+
+name="anoosha khursheed"
+for i in name:
+ print(i)
+
+
+colors="red, blue, ornage , pink"
+for colors in colors:
+ print(colors)
+ for i in colors:
+  print(i)
+
+for letter in "anoosha":
+ print(letter)
+
+list={"name": "anoosha", "class": "BSAI" , "roll no.": "33"}
+for value in list():
+ print(value)

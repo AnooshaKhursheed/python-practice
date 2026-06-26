@@ -1,0 +1,27 @@
+#list use for storing large amount of data like marks of class etc
+#we can do chnages in list
+#enclose in a square bracket []
+l=[3,4,5]
+print(type(l)) 
+
+#list method
+list=[1,2,3,4]
+print(list)
+list.append(7) #append menthod laga ka hum list ka end pa element ko add kar sakty hainsss
+print(list)
+
+
+list=[11,1,2,45,3,4]
+print(list)
+list.sort() #ya laganay say humara jo order ha wo arrange ho jai ga 
+print(list)
+
+list.reverse() #humari list reverse ho jai gi
+print (list.index(1)) #kisi bhi value ki place pata chal jai gi
+print (list.count(1)) #if we want to know aik number kitni baar a raha ha list main so we will use this
+l.insert() #suppose hum nay kisi bhi index pa kuch insert karna ha to hum bracket main phly wo jgha likhain ga phr wo humber jo humain chahiya 
+# ex l.insert(1,22)
+l.extend() #suppose hum nay aik new list banai us ko hum is method ka through apni purani wali list main add kar sakty hain
+m=[1100,1200,1300]
+list.extand(m)
+print(list) 
